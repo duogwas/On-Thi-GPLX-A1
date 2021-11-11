@@ -1,0 +1,13 @@
+plugins {
+    id 'com.android.application'
+    id 'com.huawei.agconnect'
+}
+
+android {
+    compileSdk 31
+
+    defaultConfig {
+        applicationId "hou.duogwas.onthigplxa1"
+        minSdk 28
+        targetSdk 31
+ 

@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/ProjectAndroid/On-Thi-GPLX-A1/app/src/main/res/layout/activity_custom_lv_bien_bao.xml" value="0.25416666666666665" />
         <entry key="..\:/ProjectAndroid/On-Thi-GPLX-A1/app/src/main/res/layout/activity_dang_ky.xml" value="0.24010416666666667" />
         <entry key="..\:/ProjectAndroid/On-Thi-GPLX-A1/app/src/main/res/layout/activity_dang_nhap.xml" value="0.2441123188405797" />
-        <entry key="..\:/ProjectAndroid/On-Thi-GPLX-A1/app/src/main/res/layout/activity_ho_tro.xml" value="0.22916666666666666" />
+        <entry key="..\:/ProjectAndroid/On-Thi-GPLX-A1/app/src/main/res/layout/activity_ho_tro.xml" value="0.1" />
+        <entry key="..\:/ProjectAndroid/On-Thi-GPLX-A1/app/src/main/res/layout/activity_hoc_bien_bao.xml" value="0.25416666666666665" />
         <entry key="..\:/ProjectAndroid/On-Thi-GPLX-A1/app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
         <entry key="..\:/ProjectAndroid/On-Thi-GPLX-A1/app/src/main/res/layout/activity_thong_tin_ung_dung.xml" value="0.245018115942029" />
         <entry key="..\:/ProjectAndroid/On-Thi-GPLX-A1/app/src/main/res/layout/activity_welcome.xml" value="0.264" />

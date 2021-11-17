@@ -4,6 +4,9 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e6413f1052b3311fff82ef57d7f9a717/transformed/jetified-ads-jsbridge-3.4.48.301/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e6413f1052b3311fff82ef57d7f9a717/transformed/jetified-ads-jsbridge-3.4.48.301/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e6413f1052b3311fff82ef57d7f9a717/transformed/jetified-ads-jsbridge-3.4.48.301/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3546630ac8be10dc2c7b634ab652e67f/transformed/jetified-ads-jsbridge-3.4.48.301/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3546630ac8be10dc2c7b634ab652e67f/transformed/jetified-ads-jsbridge-3.4.48.301/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3546630ac8be10dc2c7b634ab652e67f/transformed/jetified-ads-jsbridge-3.4.48.301/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -88,7 +88,7 @@
         android:id="@+id/btn_dangky"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#64B5F6"
+        android:background="@drawable/bg_btn_blue_corner_16"
         android:text="đăng ký"
         android:textColor="@color/black"
         android:textSize="18sp" />
@@ -98,7 +98,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:background="#64B5F6"
+        android:background="@drawable/bg_btn_blue_corner_16"
         android:text="Bạn đã có tài khoản, Đăng nhập ngay"
         android:textColor="@color/black"
         android:textSize="18sp" />

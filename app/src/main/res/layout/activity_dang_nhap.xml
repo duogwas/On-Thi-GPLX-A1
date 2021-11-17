@@ -66,7 +66,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="end"
             android:layout_margin="5dp"
-            android:background="#64B5F6"
+            android:background="@drawable/bg_btn_blue_corner_16"
             android:text="Quên mật khẩu ?"
             android:textSize="15sp" />
 
@@ -76,7 +76,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:background="#64B5F6"
+            android:background="@drawable/bg_btn_blue_corner_16"
             android:text="ĐĂNG NHẬP"
             android:textColor="@color/black"
             android:textSize="18sp" />
@@ -87,7 +87,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="end"
             android:layout_marginTop="10dp"
-            android:background="#64B5F6"
+            android:background="@drawable/bg_btn_blue_corner_16"
             android:text="BẠN CHƯA CÓ TÀI KHOẢN? ĐĂNG KÝ NGAY"
             android:textColor="@color/black"
             android:textSize="15sp" />
@@ -109,7 +109,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:layout_marginBottom="15dp"
-            android:background="#64B5F6"
+            android:background="@drawable/bg_btn_blue_corner_16"
             android:text="ĐĂNG NHẬP BẰNG HUAWEI ID"
             android:textColor="@color/black"
             android:textSize="18sp" />

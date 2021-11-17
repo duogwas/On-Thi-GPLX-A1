@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_white_corner_16">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_yellow_corner_top_16"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="CHỌN LOẠI BIỂN BÁO"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_cam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Biển báo cấm"
+            android:background="@drawable/bg_blue_corner_10"
+            android:layout_margin="5dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_chidan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/bg_blue_corner_10"
+            android:text="Biển chỉ dẫn" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_hieulenh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/bg_blue_corner_10"
+            android:text="Biển hiệu lệnh" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_nguyhiem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/bg_blue_corner_10"
+            android:text="Biển báo nguy hiểm và cảnh báo" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_phu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/bg_blue_corner_10"
+            android:text="Biển phụ" />
+
+    </LinearLayout>
+
+</LinearLayout>

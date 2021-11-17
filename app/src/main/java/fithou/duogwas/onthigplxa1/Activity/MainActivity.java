@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         setContentView(R.layout.activity_main);
         AnhXa();
         setOnClick();
-        //nav_view.setNavigationItemSelectedListener(this::onNavigationItemSelected);
 
         /********Toolbar********/
         setSupportActionBar(toolbar);

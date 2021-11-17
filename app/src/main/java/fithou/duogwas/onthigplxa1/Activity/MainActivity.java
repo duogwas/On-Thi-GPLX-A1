@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 
     private void setOnClick() {
-        nav_view.setNavigationItemSelectedListener(this::onNavigationItemSelected);
+        nav_view.setNavigationItemSelectedListener(this);
         cv_hocbienbao.setOnClickListener(this);
     }
 

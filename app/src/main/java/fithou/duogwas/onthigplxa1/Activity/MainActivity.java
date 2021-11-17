@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         setContentView(R.layout.activity_main);
         AnhXa();
         setOnClick();
-        nav_view.setNavigationItemSelectedListener(this::onNavigationItemSelected);
+        //nav_view.setNavigationItemSelectedListener(this::onNavigationItemSelected);
 
         /********Toolbar********/
         setSupportActionBar(toolbar);
@@ -59,6 +59,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 
     private void setOnClick() {
+        nav_view.setNavigationItemSelectedListener(this::onNavigationItemSelected);
         cv_hocbienbao.setOnClickListener(this);
     }
 
@@ -123,8 +124,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         Intent intent = new Intent();
         switch (view.getId()) {
             case R.id.cv_hocbienbao:
-                //intent = new Intent(MainActivity.this, HocBienBao.class);
-                //startActivity(intent);
+                intent = new Intent(MainActivity.this, HocBienBao.class);
+                startActivity(intent);
                 break;
 
             default:

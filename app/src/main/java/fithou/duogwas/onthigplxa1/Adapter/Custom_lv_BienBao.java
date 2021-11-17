@@ -11,6 +11,6 @@ public class Custom_lv_BienBao extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_custom_lv_bien_bao);
+        setContentView(R.layout.custom_lv_bienbao);
     }
 }

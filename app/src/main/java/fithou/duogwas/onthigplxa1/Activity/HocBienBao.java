@@ -186,6 +186,8 @@ public class HocBienBao extends AppCompatActivity implements View.OnClickListene
                 Toast.makeText(HocBienBao.this, "Biển chỉ dẫn", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(HocBienBao.this,HocBienBao.class);
                 intent.putExtra("loaiBienSelect","BIỂN CHỈ DẪN");
+                intent.putExtra("begin",16);
+                intent.putExtra("end",30);
                 startActivity(intent);
             }
         });
@@ -197,6 +199,8 @@ public class HocBienBao extends AppCompatActivity implements View.OnClickListene
                 Toast.makeText(HocBienBao.this, "Biển hiệu lệnh", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(HocBienBao.this,HocBienBao.class);
                 intent.putExtra("loaiBienSelect","BIỂN HIỆU LỆNH");
+                intent.putExtra("begin",31);
+                intent.putExtra("end",45);
                 startActivity(intent);
             }
         });
@@ -208,6 +212,8 @@ public class HocBienBao extends AppCompatActivity implements View.OnClickListene
                 Toast.makeText(HocBienBao.this, "Biển báo nguy hiểm và cảnh báo", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(HocBienBao.this,HocBienBao.class);
                 intent.putExtra("loaiBienSelect","BIỂN BÁO NGUY HIỂM VÀ CẢNH BÁO");
+                intent.putExtra("begin",46);
+                intent.putExtra("end",60);
                 startActivity(intent);
             }
         });
@@ -219,6 +225,8 @@ public class HocBienBao extends AppCompatActivity implements View.OnClickListene
                 Toast.makeText(HocBienBao.this, "Biển phụ", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(HocBienBao.this,HocBienBao.class);
                 intent.putExtra("loaiBienSelect","BIỂN PHỤ");
+                intent.putExtra("begin",61);
+                intent.putExtra("end",71);
                 startActivity(intent);
             }
         });

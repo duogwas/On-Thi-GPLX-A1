@@ -37,6 +37,7 @@ public class HocBienBao extends AppCompatActivity implements View.OnClickListene
     ImageButton img_btnHome, img_btnChange;
     ArrayList<BienBao> bienbao;
     TextView tv_loaiBien;
+    int begin, end;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,12 +49,14 @@ public class HocBienBao extends AppCompatActivity implements View.OnClickListene
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
-                new docJson().execute("https://duogwas.github.io/bienbaocam.json");
+                new docJson().execute("https://duogwas.github.io/listbienbao.json");
             }
         });
 
         String loaiBien = getIntent().getStringExtra("loaiBienSelect");
         tv_loaiBien.setText(loaiBien);
+        begin = getIntent().getIntExtra("begin",0);
+        end = getIntent().getIntExtra("end",71);
 
     }
 
@@ -99,7 +102,7 @@ public class HocBienBao extends AppCompatActivity implements View.OnClickListene
         protected void onPostExecute(String s) {
             try {
                 JSONArray jsonArray = new JSONArray(s);
-                for (int i = 0; i < jsonArray.length(); i++) {
+                for (int i = begin; i < end +1 ; i++) {
                     JSONObject bien = jsonArray.getJSONObject(i);
                     bienbao.add(new BienBao(
                             bien.getString("Hinh"),
@@ -170,6 +173,8 @@ public class HocBienBao extends AppCompatActivity implements View.OnClickListene
                 Toast.makeText(HocBienBao.this, "Biển báo cấm", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(HocBienBao.this,HocBienBao.class);
                 intent.putExtra("loaiBienSelect","BIỂN BÁO CẤM");
+                intent.putExtra("begin",0);
+                intent.putExtra("end",15);
                 startActivity(intent);
             }
         });
